@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:sans-serif !important;
+    overflow-x: hidden;
+}
+
+section{
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+h1{
+    font-size: 60px !important;
+    font-weight: 580  !important;
+    line-height: 60px !important;
+}
+
+nav{
+    padding: 20px 70px !important;
+    color: black !important;
+}
+
+.navbar-nav a{
+   padding: 20px !important;
+   color: black !important;
+   text-decoration: none !important;
+   font-weight: 600 !important;
+   font-size: 17px !important;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+}
+
+.navbar-nav{
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+a:hover{
+    color: gray !important;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn{
+    background-color: black !important;
+    color: white;
+    font-weight: 600 !important;
+    font-size: 17px;
+    padding: 15px 25px !important;
+    border-radius: 10px !important;
+}
+
+.btn2{
+    background-color: transparent;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: 600 !important;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    border: 2px solid black;
+}
+
+.logo{
+    color: black !important;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: white !important;
+}
+
+.banner-section-1{
+    padding: 0px 20px;
+}
+.banner-section-1 p{
+    width: 42%;
+    font-size: 18px;
+}
+
+.banner-section-2 img{
+    object-fit: contain;
+    position: absolute;
+    top: 100px;
+    right: -50px;
+    max-width: 850px;
+}
+
+/*  Event Section */
+
+.event{  
+    background-color: rgba(217, 217, 217, 0.178);
+    border-radius: 1000px / 130px  ;
+    height: 100vh;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.event-container{
+    justify-content: space-between !important;
+    flex-wrap: nowrap !important;
+    overflow-x:scroll; 
+    /* padding: 100px; */
+}
+
+.cont{
+    width: 390px !important;
+    height: 300px;
+    margin: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    z-index: 20;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+.cont:hover{
+    background-color:#fcfaf7 ;
+}
+
+.box{
+    min-width: 380px;
+}
+
+.coins .time .learn-more{
+    justify-content: space-between !important;
+}
+
+.box{padding: 30px;}
+
+.event h6{ color: grey;}
+
+.box button{ 
+    background-color: #b6ead5;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.coins{
+    width: 100% !important;
+    justify-content: space-between !important;
+}
+
+.icon{
+    border-radius: 50%;
+    height: 53px !important;
+    border: 2px solid black;
+    object-fit: cover;
+}
+
+.learn-more{
+     background-color: #f9e5c2;
+     border-radius: 0 0  10px 10px;
+    overflow-y: hidden !important;
+    border-top: 2px solid #000;}
+
+ .learn-more h4, .coins h4{
+    font-size: 16px;
+    font-weight: 550;
+    padding-top: 10px;
+}
+
+.coins h4{font-size: 24px;}
+
+.learn-more {
+    z-index: 10;
+    justify-content: space-between !important;
+}
+
+.time{
+    border: 2px solid black;
+    max-width: 75%;
+    border-radius: 10px;
+}
+
+time{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.design{
+    width: 100%;
+    height: 150px;
+    background-color: #f9e5c2;
+    border: 2px solid black;
+    transform: skew(-40deg);
+    position: absolute;
+    left: 20%;
+    overflow-x: hidden;
+    margin-top: -200px;
+    z-index: 0;
+    box-shadow: 15px 15px  black;
+}
+  
+
+/*  schedule */
+
+.schedule{
+    border-radius: 0 !important;
+    margin-top: -300px !important;
+    height: 100%;
+}
+
+.schedule-content{
+    margin-top: 400px !important;
+}
+
+
+
+.pink{
+    width: 100%;
+    height: 150px;
+    background-color: #f3afc6;
+    border: 2px solid black;
+    transform: skew(-40deg);
+    position: absolute;
+    left: -20% !important;
+    margin-top: -200px;
+    box-shadow: 15px 15px  black;
+}
+
+/* Community - section */
+
+.scale{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: -300px;
+}
+
+.scal-items{
+    width: 350px;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.scal-items h5{
+    font-size: 15px;
+}
+
+
+::-webkit-scrollbar{
+    z-index: 100;
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: gray !important;
+}
+::-webkit-scrollbar-thumb{
+    z-index: 100;
+    background-color: black !important;
+}
+
+/*  brands */
+
+.brands{
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.brand-items{
+    width: 200px;
+    height: 200px;
+    border: 1px solid gainsboro;
+    justify-content: center;
+    align-items: center !important;
+    text-align: center;
+    margin: 20px;
+    align-content: center !important;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(236, 236, 236);
+}
+
+.brand-items img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+.brand-items h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.partner-btn{
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.footer-item2{
+    width: 100%;
+    justify-content: space-around !important;
+}
+
+.footer-item2 h3{
+    font-size: 16px;
+    font-weight: 550;
+    color: rgb(164, 164, 164);
+}
+
+.footer-item2 h4{
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: rgb(52, 51, 51);
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.input-data{
+    width: 100%;
+    height: 50px;
+}
+
+.input-data svg{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 0 5px  5px 0;
+    cursor: pointer;
+}
+
+.input-data input{
+    padding: 10px;
+    border-radius: 5px 0 0 5px ;
+    width: 300px !important;
+    border: 1px solid #000;
+}
+
+
+.icons svg{
+     margin: 0 10px;
+     cursor: pointer;
+}
+
+.social-links h3{
+     font-weight: 500;
+     font-size: 18px;
+}
+
